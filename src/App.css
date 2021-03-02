@@ -25,12 +25,15 @@
 }
 .wrapper__todoList-items {
   display: flex;
-  justify-content: space-between;
-  align-items: center;
+  flex-direction: column;
   margin-bottom: 5px;
   padding: 5px 5px;
-  height: 80px;
   background-color: rgb(158, 158, 93);
+}
+.todoList__items-above{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 .todoList__items-left {
   display: flex;
@@ -50,6 +53,10 @@
 }
 .todoList__items-right ul li:hover{
   text-decoration: underline;
+}
+.todoList__items-below{
+  padding: 10px 0;
+  border-top: 1px solid gray;
 }
 .todoForm__wrapper {
   text-align: center;

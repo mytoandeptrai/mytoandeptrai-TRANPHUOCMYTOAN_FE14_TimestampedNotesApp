@@ -9,7 +9,7 @@ const todosSlice = createSlice({
         title: "ReactJS",
         recorded: "Sun Mar 11 2018 18:47:45",
         details:
-          "Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid labore dolor beatae similique dicta sed illo quo necessitatibus aliquam dolores.",
+          "A JavaScript library for building user interfaces.",
       },
       {
         id: uuidv4(),
